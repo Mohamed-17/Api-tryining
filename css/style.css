@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+nav .navbar-brand img {
+    width: 45px;
+    height: 40px;
+}
+.search-addon .fa-search {
+    cursor: pointer;
+    padding: 15px;
+}
+.header-side,
+.carousel-inner{
+    height: 100vh;
+}
+.content-loop{
+    width: 100%;
+
+}
+.text-area h2{
+    color: #f5c518;
+    padding: 20px;
+}
+
+.content-loop #mydiv{
+    width: 250px;
+    height: 400px;
+    background-color: #1a1a1a;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+.content-loop div #flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content-loop div #flex p {
+    margin-left: 10px;
+}
+.content-loop div img{
+    width: 100%;
+    height: 300px;
+}
+.content-loop div h5{
+    margin-top: 9px;
+    font-size: 18px;
+}
+.content-loop div i{
+    color: #f5c518;
+}
+@media screen and (max-width: 900px) {
+    .carousel-control-prev,.carousel-control-next{
+        display: none;
+    }
+}
